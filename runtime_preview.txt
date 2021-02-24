@@ -1,0 +1,65 @@
+run:
+Please input the rows <space> columns of Matrix X: 5 2
+Please input the rows <space> columns of Matrix Y: 5 1
+
+Now accepting inputs for Matrix X: 
+Please input row 1 (separate each value by a <space>):
+1 -4
+Please input row 2 (separate each value by a <space>):
+1 -2
+Please input row 3 (separate each value by a <space>):
+1 2
+Please input row 4 (separate each value by a <space>):
+1 3
+Please input row 5 (separate each value by a <space>):
+1 5
+
+Now accepting inputs for Matrix Y: 
+Please input row 1 (separate each value by a <space>):
+-1
+Please input row 2 (separate each value by a <space>):
+0
+Please input row 3 (separate each value by a <space>):
+4
+Please input row 4 (separate each value by a <space>):
+7
+Please input row 5 (separate each value by a <space>):
+9
+
+X:
+1.0	-4.0	
+1.0	-2.0	
+1.0	2.0	
+1.0	3.0	
+1.0	5.0	
+
+Y:
+-1.0	
+0.0	
+4.0	
+7.0	
+9.0	
+
+X (transpose) =
+1.0	1.0	1.0	1.0	1.0	
+-4.0	-2.0	2.0	3.0	5.0	
+
+X (transpose) * X =
+5.0	4.0	
+4.0	58.0	
+
+(X (transpose) * X) (inverted) = 
+0.2116788321167883	-0.014598540145985403	
+-0.014598540145985403	0.018248175182481754	
+
+X (transpose) * Y =
+19.0	
+78.0	
+
+(X (transpose) * X)(inverted) * (X (transpose) * Y) = A = 
+2.883211678832117	
+1.145985401459854	
+
+least square regression line:
+ ŷ = 2.883211678832117 + 1.145985401459854x
+BUILD SUCCESSFUL (total time: 29 seconds)
