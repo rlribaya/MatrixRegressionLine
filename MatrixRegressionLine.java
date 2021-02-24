@@ -1,4 +1,5 @@
 // For finding the least square regression line using matrices
+// inverse method taken from https://www.sanfoundry.com/java-program-find-inverse-matrix/
 import java.util.*;
 
 public class MatrixRegressionLine {
